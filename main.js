@@ -12,12 +12,13 @@ Number.prototype.pad = function(n) {
       mo = now.getMonth(),
       dy = now.getDate(),
       yr = now.getFullYear();
+      // AM or PM
+    var pm = hou >= 12 ? 'PM' : 'AM';
       // Find current hour in AM-PM Format
       hou = hou % 12;      
       // To display "0" as "12"
       hou = hou ? hou : 12;
-      // AM or PM
-    var pm = hou >= 12 ? 'AM' : 'PM';
+
     var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
     var tags = ["mon", "d", "y", "h", "m", "p"],
       corr = [months[mo], dy, yr, hou.pad(2), min.pad(2), pm];
