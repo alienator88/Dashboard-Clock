@@ -5,15 +5,15 @@ body {
 }
 
 #timedate {
-  font: small-caps lighter 100px/150% "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
-  text-align:left;
+  font: small-caps bold 100px/150% "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  text-align:center;
   margin: 0 auto;
   position: absolute;
-  left: 60%;
+  left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
   width: 50%;
   color:#fff;
-  border-left: 5px solid #ed1f24;
+  border-left: 50px solid #ed1f24;
   padding: 20px;
 }
