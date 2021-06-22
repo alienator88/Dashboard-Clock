@@ -17,7 +17,7 @@ Number.prototype.pad = function(n) {
       // To display "0" as "12"
       hou = hou ? hou : 12;
       // AM or PM
-    var pm = hou >= 12 ? 'AM' : 'PM';
+    var pm = hou >= 12 ? 'PM' : 'AM';
     var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
     var tags = ["mon", "d", "y", "h", "m", "p"],
       corr = [months[mo], dy, yr, hou.pad(2), min.pad(2), pm];
